@@ -1,10 +1,10 @@
 import re
 
 
-inpath = "commands/commands_coffeemachine.txt"
+inpath = "commands/commands_TCP.txt"
 outpath = "commands.txt"
 pat = re.compile(r'^\s*\d+\s*:\s*')
-systemName = 'coffeemachine'
+systemName = 'TCP'
 with open(inpath, "r") as inf, open(outpath, "w") as outf:
     for line in inf:
         s = line.strip()
