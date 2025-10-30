@@ -1,0 +1,121 @@
+Exploration Map
+==============================
+Event: BUTTON/1
+  Followed by:
+    POD/1: 26.67%
+    BUTTON/1: 20.0%
+    CLEAN/1: 20.0%
+    WATER/1: 40.0%
+  Not followed by:
+    BUTTON/2
+    CLEAN/3
+    CLEAN/2
+    WATER/3
+    POD/2
+    WATER/2
+    POD/3
+    BUTTON/3
+Percentage_of_appearance: 13.51%
+------------------------------
+Event: CLEAN/1
+  Followed by:
+    WATER/1: 14.29%
+    POD/1: 14.29%
+    BUTTON/1: 14.29%
+  Not followed by:
+    BUTTON/2
+    CLEAN/3
+    CLEAN/1
+    CLEAN/2
+    WATER/3
+    POD/2
+    WATER/2
+    POD/3
+    BUTTON/3
+Percentage_of_appearance: 6.31%
+------------------------------
+Event: WATER/1
+  Followed by:
+    BUTTON/1: 7.69%
+    POD/1: 7.69%
+  Not followed by:
+    BUTTON/2
+    CLEAN/3
+    CLEAN/1
+    WATER/1
+    CLEAN/2
+    WATER/3
+    POD/2
+    WATER/2
+    POD/3
+    BUTTON/3
+Percentage_of_appearance: 11.71%
+------------------------------
+Event: CLEAN/2
+  Followed by:
+    BUTTON/1: 20.0%
+    WATER/2: 26.67%
+    CLEAN/2: 40.0%
+    POD/2: 6.67%
+  Not followed by:
+    BUTTON/2
+    CLEAN/3
+    CLEAN/1
+    WATER/1
+    WATER/3
+    POD/1
+    POD/3
+    BUTTON/3
+Percentage_of_appearance: 13.51%
+------------------------------
+Event: POD/2
+  Followed by:
+    POD/2: 18.18%
+    WATER/2: 27.27%
+    CLEAN/2: 18.18%
+    BUTTON/1: 18.18%
+  Not followed by:
+    BUTTON/2
+    CLEAN/3
+    CLEAN/1
+    WATER/1
+    WATER/3
+    POD/1
+    POD/3
+    BUTTON/3
+Percentage_of_appearance: 9.91%
+------------------------------
+Event: POD/1
+  Followed by:
+    WATER/1: 10.0%
+    BUTTON/1: 10.0%
+  Not followed by:
+    BUTTON/2
+    CLEAN/3
+    CLEAN/1
+    CLEAN/2
+    WATER/3
+    POD/2
+    POD/1
+    WATER/2
+    POD/3
+    BUTTON/3
+Percentage_of_appearance: 9.01%
+------------------------------
+Event: WATER/2
+  Followed by:
+    CLEAN/2: 15.38%
+    POD/2: 23.08%
+    WATER/2: 23.08%
+    BUTTON/1: 15.38%
+  Not followed by:
+    BUTTON/2
+    CLEAN/3
+    CLEAN/1
+    WATER/1
+    WATER/3
+    POD/1
+    POD/3
+    BUTTON/3
+Percentage_of_appearance: 11.71%
+------------------------------

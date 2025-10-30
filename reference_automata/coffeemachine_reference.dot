@@ -1,0 +1,28 @@
+digraph coffemachine {
+	rankdir=LR;
+	node [shape=circle, style=filled, fillcolor=white];
+	"s0" [shape=doublecircle, isInitial=True];
+	"s1" [shape=doublecircle];
+	"s2" [shape=doublecircle];
+	"s3" [shape=doublecircle];
+	"s4" [shape=doublecircle];
+	"s5" [shape=doublecircle];
+	"s0"->"s0" [label="CLEAN/2"];
+	"s0"->"s1" [label="BUTTON/1"];
+	"s0"->"s2" [label="POD/2"];
+	"s0"->"s4" [label="WATER/2"];
+	"s1"->"s1" [label="BUTTON/1\nCLEAN/1\nPOD/1\nWATER/1"];
+	"s2"->"s0" [label="CLEAN/2"];
+	"s2"->"s1" [label="BUTTON/1"];
+	"s2"->"s2" [label="POD/2"];
+	"s2"->"s3" [label="WATER/2"];
+	"s3"->"s0" [label="CLEAN/2"];
+	"s3"->"s3" [label="POD/2\nWATER/2"];
+	"s3"->"s5" [label="BUTTON/3"];
+	"s4"->"s0" [label="CLEAN/2"];
+	"s4"->"s1" [label="BUTTON/1"];
+	"s4"->"s3" [label="POD/2"];
+	"s4"->"s4" [label="WATER/2"];
+	"s5"->"s0" [label="CLEAN/2"];
+	"s5"->"s1" [label="BUTTON/1\nPOD/1\nWATER/1"];
+}

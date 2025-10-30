@@ -1,0 +1,35 @@
+digraph G {
+  rankdir=LR;
+  node [shape=circle, style=filled, fillcolor=white];
+  "0" [isInitial=True, fillcolor=lightblue, shape=doublecircle];
+  "5" [fillcolor=red, shape=square];
+  "6" [fillcolor=red, shape=doublecircle];
+  "15" [fillcolor=red, shape=doublecircle];
+  "22" [fillcolor=red, shape=doublecircle];
+  "34" [fillcolor=red, shape=doublecircle];
+  "193" [fillcolor=red, shape=doublecircle];
+  "0" -> "6" [label="BUTTON/1"];
+  "0" -> "15" [label="POD/2"];
+  "0" -> "22" [label="WATER/2"];
+  "0" -> "5" [label="POD/3\nWATER/3\nWATER/1\nCLEAN/3\nCLEAN/1\nBUTTON/3\nBUTTON/2\nPOD/1"];
+  "0" -> "0" [label="CLEAN/2"];
+  "6" -> "5" [label="POD/3\nCLEAN/2\nCLEAN/3\nWATER/3\nBUTTON/2\nWATER/2\nPOD/2\nBUTTON/3"];
+  "6" -> "6" [label="WATER/1\nCLEAN/1\nPOD/1\nBUTTON/1"];
+  "15" -> "34" [label="WATER/2"];
+  "15" -> "5" [label="BUTTON/3\nCLEAN/3\nPOD/1\nPOD/3\nWATER/1\nCLEAN/1\nBUTTON/2\nWATER/3"];
+  "15" -> "0" [label="CLEAN/2"];
+  "15" -> "6" [label="BUTTON/1"];
+  "15" -> "15" [label="POD/2"];
+  "22" -> "5" [label="WATER/1\nBUTTON/2\nWATER/3\nPOD/3\nBUTTON/3\nCLEAN/1\nPOD/1\nCLEAN/3"];
+  "22" -> "0" [label="CLEAN/2"];
+  "22" -> "6" [label="BUTTON/1"];
+  "22" -> "22" [label="WATER/2"];
+  "22" -> "34" [label="POD/2"];
+  "34" -> "193" [label="BUTTON/3"];
+  "34" -> "5" [label="WATER/3\nBUTTON/1\nPOD/1\nWATER/1\nPOD/3\nBUTTON/2\nCLEAN/1\nCLEAN/3"];
+  "34" -> "0" [label="CLEAN/2"];
+  "34" -> "34" [label="POD/2\nWATER/2"];
+  "193" -> "5" [label="CLEAN/1\nBUTTON/3\nCLEAN/3\nWATER/3"];
+  "193" -> "0" [label="CLEAN/2"];
+  "193" -> "6" [label="BUTTON/1\nPOD/1"];
+}

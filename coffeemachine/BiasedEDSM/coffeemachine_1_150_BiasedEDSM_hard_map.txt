@@ -1,0 +1,121 @@
+Exploration Map
+==============================
+Event: POD/1
+  Followed by:
+    BUTTON/1: 22.22%
+    CLEAN/1: 11.11%
+  Not followed by:
+    POD/1
+    CLEAN/2
+    WATER/1
+    BUTTON/3
+    BUTTON/2
+    POD/3
+    CLEAN/3
+    POD/2
+    WATER/3
+    WATER/2
+Percentage_of_appearance: 9.0%
+------------------------------
+Event: CLEAN/1
+  Followed by:
+    WATER/1: 11.11%
+    BUTTON/1: 11.11%
+  Not followed by:
+    POD/1
+    CLEAN/1
+    CLEAN/2
+    BUTTON/3
+    BUTTON/2
+    POD/3
+    CLEAN/3
+    POD/2
+    WATER/3
+    WATER/2
+Percentage_of_appearance: 9.0%
+------------------------------
+Event: CLEAN/2
+  Followed by:
+    POD/2: 20.0%
+    WATER/2: 20.0%
+    CLEAN/2: 30.0%
+  Not followed by:
+    POD/1
+    CLEAN/1
+    WATER/1
+    BUTTON/3
+    BUTTON/2
+    POD/3
+    CLEAN/3
+    BUTTON/1
+    WATER/3
+Percentage_of_appearance: 10.0%
+------------------------------
+Event: WATER/1
+  Followed by:
+    BUTTON/1: 12.5%
+    CLEAN/1: 12.5%
+    WATER/1: 12.5%
+  Not followed by:
+    POD/1
+    CLEAN/2
+    BUTTON/3
+    BUTTON/2
+    POD/3
+    CLEAN/3
+    POD/2
+    WATER/3
+    WATER/2
+Percentage_of_appearance: 8.0%
+------------------------------
+Event: BUTTON/1
+  Followed by:
+    POD/1: 28.57%
+    CLEAN/1: 21.43%
+    WATER/1: 14.29%
+    BUTTON/1: 35.71%
+  Not followed by:
+    CLEAN/2
+    BUTTON/3
+    BUTTON/2
+    POD/3
+    CLEAN/3
+    POD/2
+    WATER/3
+    WATER/2
+Percentage_of_appearance: 14.0%
+------------------------------
+Event: POD/2
+  Followed by:
+    POD/2: 22.22%
+    WATER/2: 11.11%
+    BUTTON/1: 22.22%
+    CLEAN/2: 33.33%
+    BUTTON/3: 11.11%
+  Not followed by:
+    POD/1
+    CLEAN/1
+    WATER/1
+    BUTTON/2
+    POD/3
+    CLEAN/3
+    WATER/3
+Percentage_of_appearance: 9.0%
+------------------------------
+Event: WATER/2
+  Followed by:
+    POD/2: 22.22%
+    WATER/2: 22.22%
+    CLEAN/2: 11.11%
+    BUTTON/1: 22.22%
+  Not followed by:
+    POD/1
+    CLEAN/1
+    WATER/1
+    BUTTON/3
+    BUTTON/2
+    POD/3
+    CLEAN/3
+    WATER/3
+Percentage_of_appearance: 9.0%
+------------------------------

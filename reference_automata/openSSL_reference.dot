@@ -1,0 +1,25 @@
+digraph openSSL {
+	rankdir=LR;
+	node [shape=circle, style=filled, fillcolor=white];
+	"6" [shape=doublecircle, isInitial=True];
+	"0" [shape=doublecircle];
+	"1" [shape=doublecircle];
+	"2" [shape=doublecircle];
+	"3" [shape=doublecircle];
+	"4" [shape=doublecircle];
+	"5" [shape=doublecircle];
+	"6"->"1" [label="ClientHelloRSA/3"];
+	"6"->"4" [label="ApplicationData/1\nApplicationDataEmpty/1\nChangeCipherSpec/2\nClientKeyExchange/1\nEmptyCertificate/1\nFinished/1"];
+	"0"->"0" [label="ApplicationDataEmpty/2"];
+	"0"->"3" [label="Finished/5"];
+	"0"->"4" [label="ApplicationData/4\nChangeCipherSpec/4\nClientHelloRSA/4\nClientKeyExchange/4\nEmptyCertificate/4"];
+	"1"->"1" [label="ApplicationDataEmpty/2"];
+	"1"->"2" [label="ClientKeyExchange/2"];
+	"1"->"4" [label="ApplicationData/4\nChangeCipherSpec/4\nClientHelloRSA/4\nEmptyCertificate/4\nFinished/4"];
+	"2"->"0" [label="ChangeCipherSpec/2"];
+	"2"->"2" [label="ApplicationDataEmpty/2"];
+	"2"->"4" [label="ApplicationData/4\nClientHelloRSA/4\nClientKeyExchange/4\nEmptyCertificate/4\nFinished/4"];
+	"3"->"3" [label="ApplicationDataEmpty/2"];
+	"3"->"4" [label="ApplicationData/6\nChangeCipherSpec/4\nClientHelloRSA/7\nClientKeyExchange/4\nEmptyCertificate/4\nFinished/4"];
+	"4"->"4" [label="ApplicationData/1\nApplicationDataEmpty/1\nChangeCipherSpec/1\nClientHelloRSA/1\nClientKeyExchange/1\nEmptyCertificate/1\nFinished/1"];
+}

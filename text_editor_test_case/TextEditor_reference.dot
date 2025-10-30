@@ -1,0 +1,31 @@
+digraph g {
+    	s0 [shape=doublecircle, label="s0", isInitial=True];
+    	s1 [shape=circle, label="s1"];
+    	s2 [shape=circle, label="s2"];
+    	s3 [shape=square, label="s3"];
+
+    	s0 -> s1 [label="open / 1"];
+    	s0 -> s0 [label="load / 1"];
+    	s0 -> s3 [label="save / 0"];
+    	s0 -> s3 [label="exit / 0"];
+    	s0 -> s3 [label="edit / 0"];
+
+    	s1 -> s2 [label="edit / 1"];
+    	s1 -> s0 [label="exit / 2"];
+    	s1 -> s3 [label="save / 0"];
+    	s1 -> s3 [label="open / 0"];
+    	s1 -> s3 [label="load / 0"];
+
+    	s2 -> s2 [label="edit / 1"];
+    	s2 -> s1 [label="save / 1"];
+    	s2 -> s3 [label="exit / 0"];
+    	s2 -> s3 [label="open / 0"];
+    	s2 -> s3 [label="load / 0"];
+
+    	s3 -> s3 [label="edit / 0"];
+    	s3 -> s3 [label="save / 0"];
+    	s3 -> s3 [label="exit / 0"];
+    	s3 -> s3 [label="open / 0"];
+    	s3 -> s3 [label="load / 0"];
+
+    }

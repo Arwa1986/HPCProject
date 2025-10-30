@@ -1,0 +1,121 @@
+Exploration Map
+==============================
+Event: BUTTON/1
+  Followed by:
+    POD/1: 33.33%
+    CLEAN/1: 22.22%
+    WATER/1: 11.11%
+    BUTTON/1: 22.22%
+  Not followed by:
+    CLEAN/3
+    WATER/2
+    WATER/3
+    POD/3
+    BUTTON/2
+    CLEAN/2
+    BUTTON/3
+    POD/2
+Percentage_of_appearance: 10.11%
+------------------------------
+Event: CLEAN/1
+  Followed by:
+    CLEAN/1: 22.22%
+    BUTTON/1: 11.11%
+  Not followed by:
+    CLEAN/3
+    WATER/1
+    WATER/2
+    WATER/3
+    POD/3
+    POD/1
+    BUTTON/2
+    CLEAN/2
+    BUTTON/3
+    POD/2
+Percentage_of_appearance: 10.11%
+------------------------------
+Event: WATER/1
+  Followed by:
+    WATER/1: 25.0%
+    BUTTON/1: 25.0%
+  Not followed by:
+    CLEAN/3
+    CLEAN/1
+    WATER/2
+    WATER/3
+    POD/3
+    POD/1
+    BUTTON/2
+    CLEAN/2
+    BUTTON/3
+    POD/2
+Percentage_of_appearance: 4.49%
+------------------------------
+Event: WATER/2
+  Followed by:
+    CLEAN/2: 20.0%
+    WATER/2: 20.0%
+    POD/2: 10.0%
+    BUTTON/1: 10.0%
+    BUTTON/3: 10.0%
+  Not followed by:
+    CLEAN/3
+    CLEAN/1
+    WATER/1
+    WATER/3
+    POD/3
+    POD/1
+    BUTTON/2
+Percentage_of_appearance: 11.24%
+------------------------------
+Event: POD/1
+  Followed by:
+    POD/1: 12.5%
+    CLEAN/1: 12.5%
+    BUTTON/1: 12.5%
+  Not followed by:
+    CLEAN/3
+    WATER/1
+    WATER/2
+    WATER/3
+    POD/3
+    BUTTON/2
+    CLEAN/2
+    BUTTON/3
+    POD/2
+Percentage_of_appearance: 8.99%
+------------------------------
+Event: CLEAN/2
+  Followed by:
+    WATER/2: 33.33%
+    CLEAN/2: 16.67%
+    BUTTON/1: 33.33%
+    POD/2: 16.67%
+  Not followed by:
+    CLEAN/3
+    CLEAN/1
+    WATER/1
+    WATER/3
+    POD/3
+    POD/1
+    BUTTON/2
+    BUTTON/3
+Percentage_of_appearance: 6.74%
+------------------------------
+Event: POD/2
+  Followed by:
+    POD/2: 20.0%
+    WATER/2: 20.0%
+    BUTTON/3: 10.0%
+  Not followed by:
+    BUTTON/1
+    CLEAN/3
+    CLEAN/1
+    WATER/1
+    WATER/3
+    POD/3
+    POD/1
+    BUTTON/2
+    CLEAN/2
+Percentage_of_appearance: 11.24%
+------------------------------
